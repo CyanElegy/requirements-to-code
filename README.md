@@ -24,13 +24,13 @@ A Claude Code skill that transforms prose requirements documents into structured
 
 ```bash
 # Clone to Claude Code skills directory
-git clone https://github.com/YOUR_USERNAME/requirements-to-code.git ~/.claude/skills/requirements-to-code
+git clone https://github.com/CyanElegy/requirements-to-code.git ~/.claude/skills/requirements-to-code
 ```
 
 Or install via the Claude Code plugin system:
 
 ```
-/plugin install github.com/YOUR_USERNAME/requirements-to-code
+/plugin install github.com/CyanElegy/requirements-to-code
 ```
 
 ### Usage
