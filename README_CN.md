@@ -22,18 +22,22 @@
 
 ### 安装
 
-```bash
-# 快速安装（推荐）
-npx requirement-to-code
+通过 Claude Code skill 系统安装（推荐）：
 
-# 或克隆到 Claude Code skills 目录
-git clone https://github.com/CyanElegy/requirements-to-code.git ~/.claude/skills/requirements-to-code
+```bash
+npx skills add CyanElegy/requirements-to-code --skill requirements-to-code
 ```
 
 或通过 Claude Code 插件系统安装：
 
 ```
 /plugin install github.com/CyanElegy/requirements-to-code
+```
+
+或直接克隆到 skills 目录：
+
+```bash
+git clone https://github.com/CyanElegy/requirements-to-code.git ~/.claude/skills/requirements-to-code
 ```
 
 ### 使用
