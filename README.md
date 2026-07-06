@@ -25,7 +25,7 @@ A Claude Code skill that transforms prose requirements documents into structured
 Install via the Claude Code skill system (recommended):
 
 ```bash
-npx skills add CyanElegy/requirements-to-code --skill requirements-to-code
+npx skills add https://github.com/CyanElegy/requirements-to-code --skill requirements-to-code
 ```
 
 Or install via the Claude Code plugin system:

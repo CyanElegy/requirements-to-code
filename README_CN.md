@@ -25,7 +25,7 @@
 通过 Claude Code skill 系统安装（推荐）：
 
 ```bash
-npx skills add CyanElegy/requirements-to-code --skill requirements-to-code
+npx skills add https://github.com/CyanElegy/requirements-to-code --skill requirements-to-code
 ```
 
 或通过 Claude Code 插件系统安装：
