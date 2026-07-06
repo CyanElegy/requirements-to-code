@@ -23,7 +23,10 @@
 ### 安装
 
 ```bash
-# 克隆到 Claude Code skills 目录
+# 快速安装（推荐）
+npx requirement-to-code
+
+# 或克隆到 Claude Code skills 目录
 git clone https://github.com/CyanElegy/requirements-to-code.git ~/.claude/skills/requirements-to-code
 ```
 

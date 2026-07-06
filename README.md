@@ -23,7 +23,10 @@ A Claude Code skill that transforms prose requirements documents into structured
 ### Installation
 
 ```bash
-# Clone to Claude Code skills directory
+# Quick install with npx (recommended)
+npx requirement-to-code
+
+# Or clone to Claude Code skills directory
 git clone https://github.com/CyanElegy/requirements-to-code.git ~/.claude/skills/requirements-to-code
 ```
 

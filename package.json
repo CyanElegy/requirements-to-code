@@ -1,0 +1,11 @@
+{
+  "name": "requirement-to-code",
+  "version": "1.0.0",
+  "description": "一键安装 Claude Code requirements-to-code skill — 将需求文档转化为结构化功能树、原型、生产级代码",
+  "keywords": ["claude-code", "skill", "requirements", "prototype", "frontend"],
+  "license": "MIT",
+  "author": "CyanElegy",
+  "repository": "github:CyanElegy/requirements-to-code",
+  "bin": { "requirement-to-code": "./bin/install.js" },
+  "files": ["bin/", "SKILL.md", "references/", "scripts/", "README.md", "README_CN.md"]
+}
