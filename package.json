@@ -5,7 +5,10 @@
   "keywords": ["claude-code", "skill", "requirements", "prototype", "frontend"],
   "license": "MIT",
   "author": "CyanElegy",
-  "repository": "github:CyanElegy/requirements-to-code",
-  "bin": { "requirement-to-code": "./bin/install.js" },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CyanElegy/requirements-to-code.git"
+  },
+  "bin": { "requirement-to-code": "bin/install.js" },
   "files": ["bin/", "SKILL.md", "references/", "scripts/", "README.md", "README_CN.md"]
 }
