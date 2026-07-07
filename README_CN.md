@@ -127,18 +127,22 @@ src/__tests__/*, e2e/*
 
 ```
 requirements-to-code/
-├── SKILL.md                          # 主 skill 指令
-├── references/                       # 渐进式加载参考文件
-│   ├── schemas.md                    # JSON Schema 定义
-│   ├── templates.md                  # 代码模板（原型/Hook/测试）
-│   ├── parallel-execution.md         # 大型项目并行策略
-│   ├── ui-reference-analysis.md      # 截图/URL/Figma/design-skill 分析
-│   ├── iteration-delta.md            # 迭代模式 Delta 机制
-│   └── pitfalls.md                   # 常见陷阱与恢复策略
-└── scripts/                          # 辅助脚本（Python）
-    ├── convert_docx_to_md.py         # .docx → .md 转换
-    ├── apply_delta.py                # 迭代模式 Delta 合并
-    └── scan_project.py              # 项目上下文扫描
+├── README.md
+├── README_CN.md
+├── .gitignore
+└── requirements-to-code/             # Skill 目录
+    ├── SKILL.md                      # 主 skill 指令
+    ├── references/                   # 渐进式加载参考文件
+    │   ├── schemas.md                # JSON Schema 定义
+    │   ├── templates.md              # 代码模板（原型/Hook/测试）
+    │   ├── parallel-execution.md     # 大型项目并行策略
+    │   ├── ui-reference-analysis.md  # 截图/URL/Figma/design-skill 分析
+    │   ├── iteration-delta.md        # 迭代模式 Delta 机制
+    │   └── pitfalls.md               # 常见陷阱与恢复策略
+    └── scripts/                      # 辅助脚本（Python）
+        ├── convert_docx_to_md.py     # .docx → .md 转换
+        ├── apply_delta.py            # 迭代模式 Delta 合并
+        └── scan_project.py           # 项目上下文扫描
 ```
 
 ## License

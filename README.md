@@ -125,18 +125,22 @@ src/__tests__/*, e2e/*
 
 ```
 requirements-to-code/
-├── SKILL.md                          # Main skill instructions
-├── references/                       # Progressive disclosure reference files
-│   ├── schemas.md                    # All JSON schema definitions
-│   ├── templates.md                  # Code templates (prototype, hook, test)
-│   ├── parallel-execution.md         # Large project parallel execution strategy
-│   ├── ui-reference-analysis.md      # Screenshot/URL/Figma/design-skill analysis
-│   ├── iteration-delta.md            # Iteration mode delta mechanism
-│   └── pitfalls.md                   # Common pitfalls with recovery strategies
-└── scripts/                          # Bundled helper scripts (Python)
-    ├── convert_docx_to_md.py         # .docx → .md converter
-    ├── apply_delta.py                # Delta merger for iteration mode
-    └── scan_project.py              # Project context scanner
+├── README.md
+├── README_CN.md
+├── .gitignore
+└── requirements-to-code/             # Skill directory
+    ├── SKILL.md                      # Main skill instructions
+    ├── references/                   # Progressive disclosure reference files
+    │   ├── schemas.md                # All JSON schema definitions
+    │   ├── templates.md              # Code templates (prototype, hook, test)
+    │   ├── parallel-execution.md     # Large project parallel execution strategy
+    │   ├── ui-reference-analysis.md  # Screenshot/URL/Figma/design-skill analysis
+    │   ├── iteration-delta.md        # Iteration mode delta mechanism
+    │   └── pitfalls.md               # Common pitfalls with recovery strategies
+    └── scripts/                      # Bundled helper scripts (Python)
+        ├── convert_docx_to_md.py     # .docx → .md converter
+        ├── apply_delta.py            # Delta merger for iteration mode
+        └── scan_project.py           # Project context scanner
 ```
 
 ## License
